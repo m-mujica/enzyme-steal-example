@@ -1,0 +1,36 @@
+{
+  "name": "enzyme-steal-example",
+  "version": "1.0.0",
+  "description": "Example app loading Enzyme with StealJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "system": {
+    "transpiler": "babel",
+    "map": {
+      "react/lib/ReactContext": "@empty",
+      "react/lib/ExecutionEnvironment": "@empty",
+      "cheerio@0.20.0#package": "cheerio@0.20.0#package.json",
+      "enzyme": "enzyme"
+    },
+    "paths": {
+      "enzyme": "node_modules/enzyme/build/index.js"
+    },
+    "babelOptions": {
+      "blacklist": []
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "enzyme": "^2.2.0",
+    "qunitjs": "^2.0.0-rc1",
+    "react": "^0.14.8",
+    "react-addons-test-utils": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "steal": "^0.16.4",
+    "steal-qunit": "^0.1.1"
+  }
+}
