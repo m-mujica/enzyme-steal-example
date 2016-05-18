@@ -25,12 +25,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "enzyme": "^2.2.0",
+    "enzyme": "^2.3.0",
     "qunitjs": "^2.0.0-rc1",
     "react": "^0.14.8",
     "react-addons-test-utils": "^0.14.8",
     "react-dom": "^0.14.8",
-    "steal": "^0.16.4",
+    "steal": "^0.16.12",
     "steal-builtins": "^1.0.0",
     "steal-qunit": "^0.1.1"
   }
