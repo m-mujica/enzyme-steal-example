@@ -13,11 +13,7 @@
     "map": {
       "react/lib/ReactContext": "@empty",
       "react/lib/ExecutionEnvironment": "@empty",
-      "cheerio@0.20.0#package": "cheerio@0.20.0#package.json",
-      "enzyme": "enzyme"
-    },
-    "paths": {
-      "enzyme": "node_modules/enzyme/build/index.js"
+      "cheerio@0.20.0#package": "cheerio@0.20.0#package.json"
     },
     "babelOptions": {
       "blacklist": []

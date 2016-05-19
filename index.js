@@ -1,4 +1,5 @@
 import React from 'react';
+import Foo from './foo';
 import QUnit from 'steal-qunit';
 import { shallow } from 'enzyme';
 
